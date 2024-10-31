@@ -41,7 +41,7 @@ end else if (fsm_input == 2'b10) begin
 next_state = s1;
 fsm_output = 2'b01;
 end else begin
-next_state = s3;
+next_state = s2;
 fsm_output = 2'b00;
 end
 end
@@ -59,9 +59,6 @@ end else begin
 next_state = s3;
 fsm_output = 2'b10;
 end
-
-VDF Assignment 2 32
-
 end
 s2: begin
 if (fsm_input == 2'b00) begin
@@ -98,9 +95,6 @@ if (fsm_input == 2'b00) begin
 next_state = s4;
 fsm_output = 2'b00;
 end else if (fsm_input == 2'b10) begin
-
-VDF Assignment 2 33
-
 next_state = s0;
 fsm_output = 2'b10;
 end else if (fsm_input == 2'b01) begin
